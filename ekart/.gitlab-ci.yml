@@ -1,0 +1,34 @@
+image: node:latest
+
+stages:
+    - install 
+    - build
+
+
+cache:
+    paths:
+      - node_modules/
+   
+    
+Testing:
+    only:
+        - master
+    stage: install
+    script:
+      - npm install
+      - npm test
+    allow_failure: true
+
+Building:
+    only:
+        - master
+    stage: build
+    script:
+        - npm run build
+    after_script:
+        - mv node_modules/.cache
+        
+    allow_failure: true
+
+ 
+    

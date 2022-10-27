@@ -1,0 +1,15 @@
+{
+  "employees": [
+    {
+      "name": "Vignesh Doddi",
+      "email": "vigneshdoddi1122@gmail.com",
+      "role": "DSE",
+      "gender": "male",
+      "hobbies": [
+        "Reading",
+        "Developing"
+      ],
+      "id": 1
+    }
+  ]
+}

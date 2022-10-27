@@ -1,0 +1,26 @@
+{
+    "products":[
+        {
+            "pdtCode": 123901239412,
+            "pdtName": "Gamia Laptop",
+            "pdtPrice": "33000",
+            "pdtDescription": "An excellent choice for an awesome gaming experience",
+            "pdtImg": "Images/laptop.jpg",
+            "rating": "3",
+            "isDiscontinued": false
+        }
+    ],
+    "feedbacks" :[
+        {
+            "user": "khalid",
+            "feedbackDetails": "Worst product. First of all received very late. Forget about it.",
+            "rating": "2"
+        }
+    ],
+    "users" :[
+        {
+            "username": "admin",
+            "password": "admin"
+        }
+    ]
+}

@@ -1,0 +1,80 @@
+/* Styling for destination places */
+
+.place-col {
+    float: left;
+    width: 25%;
+  }
+  
+  .place-row {
+    margin-right: 18px;
+    margin-top: 140px;
+  }
+  
+  .place-head {
+    font-weight: 600;
+    margin-left: 20px;
+  }
+  
+  .place-head a {
+    text-decoration: none;
+  }
+  
+  .place-head a:hover {
+    border-bottom: solid 1px rgb(121, 62, 62);
+  }
+  
+  .place-head a:visited {
+    color: rgb(121, 62, 62);
+  }
+
+
+  /* Style the counter cards */
+
+.place-card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    height: 370px;
+    margin-left: 20px;
+    padding: 16px;
+  }
+  
+  .place-container {
+    color: rgb(82, 81, 81);
+    font-size: 14px;
+    line-height: 24px;
+    padding: 10px;
+    text-align: center;
+  }
+  
+  .place-card:hover {
+    box-shadow: 0 8px 16px 0;
+  }
+  
+  .place-image {
+    position: relative;
+    width: 50%;
+  }
+  
+  .place-card img {
+    backface-visibility: hidden;
+    display: block;
+    height: 200px;
+    transition: 0.5s ease;
+    width: 280px;
+  }
+  
+  .place-text {
+    color: white;
+    font-size: 50px;
+    left: 50%;
+    opacity: 0;
+    position: absolute;
+    top: 40%;
+  }
+  
+  .place-image:hover img {
+    opacity: 0.5;
+  }
+  
+  .place-image:hover .place-text {
+    opacity: 1;
+  }

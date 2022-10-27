@@ -1,0 +1,349 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="jest tests" tests="40" failures="21" time="22.454">
+  <testsuite name="Testing LoginUser component" errors="0" failures="21" skipped="0" timestamp="2020-04-03T07:15:55" time="17.124" tests="40">
+    <testcase classname="Testing LoginUser component Testing JSX - Have a form" name="Testing LoginUser component Testing JSX - Have a form" time="0.013">
+      <failure>Error: expect(received).toHaveLength(expected)
+
+Expected length: 1
+Received length: 0
+Received object: {}
+    at Object.&lt;anonymous&gt; (C:\Users\aravind.ganesan01\Desktop\new-ekart-react\src\App.test.js:34:34)
+    at Object.asyncJestTest (C:\Users\aravind.ganesan01\Desktop\new-ekart-react\node_modules\jest-jasmine2\build\jasmineAsyncInstall.js:102:37)
+    at C:\Users\aravind.ganesan01\Desktop\new-ekart-react\node_modules\jest-jasmine2\build\queueRunner.js:43:12
+    at new Promise (&lt;anonymous&gt;)
+    at mapper (C:\Users\aravind.ganesan01\Desktop\new-ekart-react\node_modules\jest-jasmine2\build\queueRunner.js:26:19)
+    at C:\Users\aravind.ganesan01\Desktop\new-ekart-react\node_modules\jest-jasmine2\build\queueRunner.js:73:41</failure>
+    </testcase>
+    <testcase classname="Testing LoginUser component Testing JSX - Have input fields" name="Testing LoginUser component Testing JSX - Have input fields" time="0.002">
+      <failure>Error: expect(received).toHaveLength(expected)
+
+Expected length: 2
+Received length: 0
+Received object: {}
+    at Object.&lt;anonymous&gt; (C:\Users\aravind.ganesan01\Desktop\new-ekart-react\src\App.test.js:38:35)
+    at Object.asyncJestTest (C:\Users\aravind.ganesan01\Desktop\new-ekart-react\node_modules\jest-jasmine2\build\jasmineAsyncInstall.js:102:37)
+    at C:\Users\aravind.ganesan01\Desktop\new-ekart-react\node_modules\jest-jasmine2\build\queueRunner.js:43:12
+    at new Promise (&lt;anonymous&gt;)
+    at mapper (C:\Users\aravind.ganesan01\Desktop\new-ekart-react\node_modules\jest-jasmine2\build\queueRunner.js:26:19)
+    at C:\Users\aravind.ganesan01\Desktop\new-ekart-react\node_modules\jest-jasmine2\build\queueRunner.js:73:41</failure>
+    </testcase>
+    <testcase classname="Testing LoginUser component Testing JSX - Have input fields" name="Testing LoginUser component Testing JSX - Have input fields" time="0.002">
+      <failure>Error: expect(received).toHaveLength(expected)
+
+Expected length: 1
+Received length: 0
+Received object: {}
+    at Object.&lt;anonymous&gt; (C:\Users\aravind.ganesan01\Desktop\new-ekart-react\src\App.test.js:42:36)
+    at Object.asyncJestTest (C:\Users\aravind.ganesan01\Desktop\new-ekart-react\node_modules\jest-jasmine2\build\jasmineAsyncInstall.js:102:37)
+    at C:\Users\aravind.ganesan01\Desktop\new-ekart-react\node_modules\jest-jasmine2\build\queueRunner.js:43:12
+    at new Promise (&lt;anonymous&gt;)
+    at mapper (C:\Users\aravind.ganesan01\Desktop\new-ekart-react\node_modules\jest-jasmine2\build\queueRunner.js:26:19)
+    at C:\Users\aravind.ganesan01\Desktop\new-ekart-react\node_modules\jest-jasmine2\build\queueRunner.js:73:41</failure>
+    </testcase>
+    <testcase classname="Testing LoginUser component Testing whether create an account link is present" name="Testing LoginUser component Testing whether create an account link is present" time="0.019">
+      <failure>TypeError: Cannot read property &apos;props&apos; of undefined
+    at Object.&lt;anonymous&gt; (C:\Users\aravind.ganesan01\Desktop\new-ekart-react\src\App.test.js:46:12)
+    at Object.asyncJestTest (C:\Users\aravind.ganesan01\Desktop\new-ekart-react\node_modules\jest-jasmine2\build\jasmineAsyncInstall.js:102:37)
+    at C:\Users\aravind.ganesan01\Desktop\new-ekart-react\node_modules\jest-jasmine2\build\queueRunner.js:43:12
+    at new Promise (&lt;anonymous&gt;)
+    at mapper (C:\Users\aravind.ganesan01\Desktop\new-ekart-react\node_modules\jest-jasmine2\build\queueRunner.js:26:19)
+    at C:\Users\aravind.ganesan01\Desktop\new-ekart-react\node_modules\jest-jasmine2\build\queueRunner.js:73:41</failure>
+    </testcase>
+    <testcase classname="Testing LoginUser component Testing valid credentials" name="Testing LoginUser component Testing valid credentials" time="0.072">
+      <failure>Error: Method “simulate” is meant to be run on 1 node. 0 found instead.
+    at ReactWrapper.single (C:\Users\aravind.ganesan01\Desktop\new-ekart-react\node_modules\enzyme\src\ReactWrapper.js:1166:13)
+    at ReactWrapper.simulate (C:\Users\aravind.ganesan01\Desktop\new-ekart-react\node_modules\enzyme\src\ReactWrapper.js:665:17)
+    at Object.&lt;anonymous&gt; (C:\Users\aravind.ganesan01\Desktop\new-ekart-react\src\App.test.js:55:10)
+    at Object.asyncJestTest (C:\Users\aravind.ganesan01\Desktop\new-ekart-react\node_modules\jest-jasmine2\build\jasmineAsyncInstall.js:102:37)
+    at C:\Users\aravind.ganesan01\Desktop\new-ekart-react\node_modules\jest-jasmine2\build\queueRunner.js:43:12
+    at new Promise (&lt;anonymous&gt;)
+    at mapper (C:\Users\aravind.ganesan01\Desktop\new-ekart-react\node_modules\jest-jasmine2\build\queueRunner.js:26:19)
+    at C:\Users\aravind.ganesan01\Desktop\new-ekart-react\node_modules\jest-jasmine2\build\queueRunner.js:73:41</failure>
+    </testcase>
+    <testcase classname="Testing Main component routes should show Signup component for /signup router" name="Testing Main component routes should show Signup component for /signup router" time="0.052">
+      <failure>TypeError: Cannot read property &apos;WrappedComponent&apos; of undefined
+    at Object.&lt;anonymous&gt; (C:\Users\aravind.ganesan01\Desktop\new-ekart-react\src\App.test.js:72:31)
+    at Object.asyncJestTest (C:\Users\aravind.ganesan01\Desktop\new-ekart-react\node_modules\jest-jasmine2\build\jasmineAsyncInstall.js:102:37)
+    at C:\Users\aravind.ganesan01\Desktop\new-ekart-react\node_modules\jest-jasmine2\build\queueRunner.js:43:12
+    at new Promise (&lt;anonymous&gt;)
+    at mapper (C:\Users\aravind.ganesan01\Desktop\new-ekart-react\node_modules\jest-jasmine2\build\queueRunner.js:26:19)
+    at C:\Users\aravind.ganesan01\Desktop\new-ekart-react\node_modules\jest-jasmine2\build\queueRunner.js:73:41</failure>
+    </testcase>
+    <testcase classname="Testing Main component routes should show Login component for /login router" name="Testing Main component routes should show Login component for /login router" time="0.001">
+      <failure>TypeError: Cannot read property &apos;WrappedComponent&apos; of undefined
+    at Object.&lt;anonymous&gt; (C:\Users\aravind.ganesan01\Desktop\new-ekart-react\src\App.test.js:75:30)
+    at Object.asyncJestTest (C:\Users\aravind.ganesan01\Desktop\new-ekart-react\node_modules\jest-jasmine2\build\jasmineAsyncInstall.js:102:37)
+    at C:\Users\aravind.ganesan01\Desktop\new-ekart-react\node_modules\jest-jasmine2\build\queueRunner.js:43:12
+    at new Promise (&lt;anonymous&gt;)
+    at mapper (C:\Users\aravind.ganesan01\Desktop\new-ekart-react\node_modules\jest-jasmine2\build\queueRunner.js:26:19)
+    at C:\Users\aravind.ganesan01\Desktop\new-ekart-react\node_modules\jest-jasmine2\build\queueRunner.js:73:41</failure>
+    </testcase>
+    <testcase classname="Testing Testing Dashboard component" name="Testing Testing Dashboard component" time="0.065">
+    </testcase>
+    <testcase classname="Testing Product component Testing productname is rendered" name="Testing Product component Testing productname is rendered" time="0.011">
+    </testcase>
+    <testcase classname="Testing Product component Testing routing is happening" name="Testing Product component Testing routing is happening" time="0.011">
+      <failure>Error: expect(received).toEqual(expected) // deep equality
+
+Expected: [&quot;/productdesc/laptop1&quot;]
+Received: undefined
+    at Object.&lt;anonymous&gt; (C:\Users\aravind.ganesan01\Desktop\new-ekart-react\src\App.test.js:169:44)
+    at Object.asyncJestTest (C:\Users\aravind.ganesan01\Desktop\new-ekart-react\node_modules\jest-jasmine2\build\jasmineAsyncInstall.js:102:37)
+    at C:\Users\aravind.ganesan01\Desktop\new-ekart-react\node_modules\jest-jasmine2\build\queueRunner.js:43:12
+    at new Promise (&lt;anonymous&gt;)
+    at mapper (C:\Users\aravind.ganesan01\Desktop\new-ekart-react\node_modules\jest-jasmine2\build\queueRunner.js:26:19)
+    at C:\Users\aravind.ganesan01\Desktop\new-ekart-react\node_modules\jest-jasmine2\build\queueRunner.js:73:41</failure>
+    </testcase>
+    <testcase classname="Testing Header component Links rendered" name="Testing Header component Links rendered" time="0.046">
+      <failure>Error: expect(received).toHaveLength(expected)
+
+Expected length: 4
+Received length: 2
+Received object: {}
+    at Object.&lt;anonymous&gt; (C:\Users\aravind.ganesan01\Desktop\new-ekart-react\src\App.test.js:221:23)
+    at Object.asyncJestTest (C:\Users\aravind.ganesan01\Desktop\new-ekart-react\node_modules\jest-jasmine2\build\jasmineAsyncInstall.js:102:37)
+    at C:\Users\aravind.ganesan01\Desktop\new-ekart-react\node_modules\jest-jasmine2\build\queueRunner.js:43:12
+    at new Promise (&lt;anonymous&gt;)
+    at mapper (C:\Users\aravind.ganesan01\Desktop\new-ekart-react\node_modules\jest-jasmine2\build\queueRunner.js:26:19)
+    at C:\Users\aravind.ganesan01\Desktop\new-ekart-react\node_modules\jest-jasmine2\build\queueRunner.js:73:41</failure>
+    </testcase>
+    <testcase classname="Testing productdes component Testing whether Rater component is rendered" name="Testing productdes component Testing whether Rater component is rendered" time="0.095">
+      <failure>Error: expect(received).toHaveLength(expected)
+
+Expected length: 4
+Received length: 0
+Received object: {}
+    at Object.&lt;anonymous&gt; (C:\Users\aravind.ganesan01\Desktop\new-ekart-react\src\App.test.js:330:28)
+    at Object.asyncJestTest (C:\Users\aravind.ganesan01\Desktop\new-ekart-react\node_modules\jest-jasmine2\build\jasmineAsyncInstall.js:102:37)
+    at C:\Users\aravind.ganesan01\Desktop\new-ekart-react\node_modules\jest-jasmine2\build\queueRunner.js:43:12
+    at new Promise (&lt;anonymous&gt;)
+    at mapper (C:\Users\aravind.ganesan01\Desktop\new-ekart-react\node_modules\jest-jasmine2\build\queueRunner.js:26:19)
+    at C:\Users\aravind.ganesan01\Desktop\new-ekart-react\node_modules\jest-jasmine2\build\queueRunner.js:73:41</failure>
+    </testcase>
+    <testcase classname="Testing productdes component Testing whether Feedback component is rendered" name="Testing productdes component Testing whether Feedback component is rendered" time="0.076">
+      <failure>Error: expect(received).toHaveLength(expected)
+
+Expected length: 2
+Received length: 0
+Received object: {}
+    at Object.&lt;anonymous&gt; (C:\Users\aravind.ganesan01\Desktop\new-ekart-react\src\App.test.js:338:28)
+    at Object.asyncJestTest (C:\Users\aravind.ganesan01\Desktop\new-ekart-react\node_modules\jest-jasmine2\build\jasmineAsyncInstall.js:102:37)
+    at C:\Users\aravind.ganesan01\Desktop\new-ekart-react\node_modules\jest-jasmine2\build\queueRunner.js:43:12
+    at new Promise (&lt;anonymous&gt;)
+    at mapper (C:\Users\aravind.ganesan01\Desktop\new-ekart-react\node_modules\jest-jasmine2\build\queueRunner.js:26:19)
+    at C:\Users\aravind.ganesan01\Desktop\new-ekart-react\node_modules\jest-jasmine2\build\queueRunner.js:73:41</failure>
+    </testcase>
+    <testcase classname="Testing Feedback component Testing the feedback component props" name="Testing Feedback component Testing the feedback component props" time="0.014">
+    </testcase>
+    <testcase classname="Testing Rater component Testing items are rendered" name="Testing Rater component Testing items are rendered" time="0.021">
+    </testcase>
+    <testcase classname="Testing signup component Testing whether the state is set in handleSignup method" name="Testing signup component Testing whether the state is set in handleSignup method" time="0.023">
+    </testcase>
+    <testcase classname="Testing Recommendations component Testing whether recommended products are rendered" name="Testing Recommendations component Testing whether recommended products are rendered" time="0.017">
+    </testcase>
+    <testcase classname="Testing Recommendations component Testing whether the text is rendered where there is no order history" name="Testing Recommendations component Testing whether the text is rendered where there is no order history" time="0.02">
+      <failure>Error: expect(received).toContain(expected) // indexOf
+
+Expected substring: &quot;You Havent purchased anything from us. Please Chekout the amazing deals&quot;
+Received string:    &quot;&quot;
+    at Object.&lt;anonymous&gt; (C:\Users\aravind.ganesan01\Desktop\new-ekart-react\src\App.test.js:457:29)
+    at Object.asyncJestTest (C:\Users\aravind.ganesan01\Desktop\new-ekart-react\node_modules\jest-jasmine2\build\jasmineAsyncInstall.js:102:37)
+    at C:\Users\aravind.ganesan01\Desktop\new-ekart-react\node_modules\jest-jasmine2\build\queueRunner.js:43:12
+    at new Promise (&lt;anonymous&gt;)
+    at mapper (C:\Users\aravind.ganesan01\Desktop\new-ekart-react\node_modules\jest-jasmine2\build\queueRunner.js:26:19)
+    at C:\Users\aravind.ganesan01\Desktop\new-ekart-react\node_modules\jest-jasmine2\build\queueRunner.js:73:41</failure>
+    </testcase>
+    <testcase classname="Testing wishlist component Testing whether wishlist items are rendered" name="Testing wishlist component Testing whether wishlist items are rendered" time="0.02">
+      <failure>Error: expect(received).toHaveLength(expected)
+
+Expected length: 2
+Received length: 0
+Received object: {}
+    at Object.&lt;anonymous&gt; (C:\Users\aravind.ganesan01\Desktop\new-ekart-react\src\App.test.js:470:28)
+    at Object.asyncJestTest (C:\Users\aravind.ganesan01\Desktop\new-ekart-react\node_modules\jest-jasmine2\build\jasmineAsyncInstall.js:102:37)
+    at C:\Users\aravind.ganesan01\Desktop\new-ekart-react\node_modules\jest-jasmine2\build\queueRunner.js:43:12
+    at new Promise (&lt;anonymous&gt;)
+    at mapper (C:\Users\aravind.ganesan01\Desktop\new-ekart-react\node_modules\jest-jasmine2\build\queueRunner.js:26:19)
+    at C:\Users\aravind.ganesan01\Desktop\new-ekart-react\node_modules\jest-jasmine2\build\queueRunner.js:73:41</failure>
+    </testcase>
+    <testcase classname="Testing UserProfile component Testing name state is updated" name="Testing UserProfile component Testing name state is updated" time="1.093">
+      <failure>Error: expect(received).toEqual(expected) // deep equality
+
+Expected: &quot;Kavya&quot;
+Received: undefined
+    at Object.&lt;anonymous&gt; (C:\Users\aravind.ganesan01\Desktop\new-ekart-react\src\App.test.js:479:35)
+    at Object.asyncJestTest (C:\Users\aravind.ganesan01\Desktop\new-ekart-react\node_modules\jest-jasmine2\build\jasmineAsyncInstall.js:102:37)
+    at C:\Users\aravind.ganesan01\Desktop\new-ekart-react\node_modules\jest-jasmine2\build\queueRunner.js:43:12
+    at new Promise (&lt;anonymous&gt;)
+    at mapper (C:\Users\aravind.ganesan01\Desktop\new-ekart-react\node_modules\jest-jasmine2\build\queueRunner.js:26:19)
+    at C:\Users\aravind.ganesan01\Desktop\new-ekart-react\node_modules\jest-jasmine2\build\queueRunner.js:73:41</failure>
+    </testcase>
+    <testcase classname="Testing UserProfile component Testing name routing is happening" name="Testing UserProfile component Testing name routing is happening" time="2.922">
+      <failure>Error: expect(received).toEqual(expected) // deep equality
+
+Expected: [&quot;/landingPage&quot;]
+Received: undefined
+    at Object.&lt;anonymous&gt; (C:\Users\aravind.ganesan01\Desktop\new-ekart-react\src\App.test.js:486:44)
+    at Object.asyncJestTest (C:\Users\aravind.ganesan01\Desktop\new-ekart-react\node_modules\jest-jasmine2\build\jasmineAsyncInstall.js:102:37)
+    at C:\Users\aravind.ganesan01\Desktop\new-ekart-react\node_modules\jest-jasmine2\build\queueRunner.js:43:12
+    at new Promise (&lt;anonymous&gt;)
+    at mapper (C:\Users\aravind.ganesan01\Desktop\new-ekart-react\node_modules\jest-jasmine2\build\queueRunner.js:26:19)
+    at C:\Users\aravind.ganesan01\Desktop\new-ekart-react\node_modules\jest-jasmine2\build\queueRunner.js:73:41</failure>
+    </testcase>
+    <testcase classname="Testing SearchPage component Testing whether the products are rendered according to the search term" name="Testing SearchPage component Testing whether the products are rendered according to the search term" time="0.089">
+      <failure>TypeError: Cannot read property &apos;getProductNames&apos; of undefined
+    at SearchPage.componentWillMount (C:\Users\aravind.ganesan01\Desktop\new-ekart-react\src\components\SearchPage.jsx:14:24)
+    at callComponentWillMount (C:\Users\aravind.ganesan01\Desktop\new-ekart-react\node_modules\react-dom\cjs\react-dom.development.js:14271:14)
+    at mountClassInstance (C:\Users\aravind.ganesan01\Desktop\new-ekart-react\node_modules\react-dom\cjs\react-dom.development.js:14374:5)
+    at updateClassComponent (C:\Users\aravind.ganesan01\Desktop\new-ekart-react\node_modules\react-dom\cjs\react-dom.development.js:18414:5)
+    at beginWork$1 (C:\Users\aravind.ganesan01\Desktop\new-ekart-react\node_modules\react-dom\cjs\react-dom.development.js:20186:16)
+    at HTMLUnknownElement.callCallback (C:\Users\aravind.ganesan01\Desktop\new-ekart-react\node_modules\react-dom\cjs\react-dom.development.js:336:14)
+    at invokeEventListeners (C:\Users\aravind.ganesan01\Desktop\new-ekart-react\node_modules\jest-environment-jsdom\node_modules\jsdom\lib\jsdom\living\events\EventTarget-impl.js:193:27)
+    at HTMLUnknownElementImpl._dispatch (C:\Users\aravind.ganesan01\Desktop\new-ekart-react\node_modules\jest-environment-jsdom\node_modules\jsdom\lib\jsdom\living\events\EventTarget-impl.js:119:9)
+    at HTMLUnknownElementImpl.dispatchEvent (C:\Users\aravind.ganesan01\Desktop\new-ekart-react\node_modules\jest-environment-jsdom\node_modules\jsdom\lib\jsdom\living\events\EventTarget-impl.js:82:17)
+    at HTMLUnknownElementImpl.dispatchEvent (C:\Users\aravind.ganesan01\Desktop\new-ekart-react\node_modules\jest-environment-jsdom\node_modules\jsdom\lib\jsdom\living\nodes\HTMLElement-impl.js:30:27)
+    at HTMLUnknownElement.dispatchEvent (C:\Users\aravind.ganesan01\Desktop\new-ekart-react\node_modules\jest-environment-jsdom\node_modules\jsdom\lib\jsdom\living\generated\EventTarget.js:157:21)
+    at Object.invokeGuardedCallbackDev (C:\Users\aravind.ganesan01\Desktop\new-ekart-react\node_modules\react-dom\cjs\react-dom.development.js:385:16)
+    at invokeGuardedCallback (C:\Users\aravind.ganesan01\Desktop\new-ekart-react\node_modules\react-dom\cjs\react-dom.development.js:440:31)
+    at beginWork$$1 (C:\Users\aravind.ganesan01\Desktop\new-ekart-react\node_modules\react-dom\cjs\react-dom.development.js:25780:7)
+    at performUnitOfWork (C:\Users\aravind.ganesan01\Desktop\new-ekart-react\node_modules\react-dom\cjs\react-dom.development.js:24698:12)
+    at workLoopSync (C:\Users\aravind.ganesan01\Desktop\new-ekart-react\node_modules\react-dom\cjs\react-dom.development.js:24671:22)
+    at performSyncWorkOnRoot (C:\Users\aravind.ganesan01\Desktop\new-ekart-react\node_modules\react-dom\cjs\react-dom.development.js:24270:11)
+    at scheduleUpdateOnFiber (C:\Users\aravind.ganesan01\Desktop\new-ekart-react\node_modules\react-dom\cjs\react-dom.development.js:23698:7)
+    at updateContainer (C:\Users\aravind.ganesan01\Desktop\new-ekart-react\node_modules\react-dom\cjs\react-dom.development.js:27103:3)
+    at C:\Users\aravind.ganesan01\Desktop\new-ekart-react\node_modules\react-dom\cjs\react-dom.development.js:27528:7
+    at unbatchedUpdates (C:\Users\aravind.ganesan01\Desktop\new-ekart-react\node_modules\react-dom\cjs\react-dom.development.js:24433:12)
+    at legacyRenderSubtreeIntoContainer (C:\Users\aravind.ganesan01\Desktop\new-ekart-react\node_modules\react-dom\cjs\react-dom.development.js:27527:5)
+    at Object.render (C:\Users\aravind.ganesan01\Desktop\new-ekart-react\node_modules\react-dom\cjs\react-dom.development.js:27608:10)
+    at fn (C:\Users\aravind.ganesan01\Desktop\new-ekart-react\node_modules\enzyme-adapter-react-16\src\ReactSixteenAdapter.js:430:26)
+    at C:\Users\aravind.ganesan01\Desktop\new-ekart-react\node_modules\enzyme-adapter-react-16\src\ReactSixteenAdapter.js:347:37
+    at batchedUpdates$1 (C:\Users\aravind.ganesan01\Desktop\new-ekart-react\node_modules\react-dom\cjs\react-dom.development.js:24386:12)
+    at Object.act (C:\Users\aravind.ganesan01\Desktop\new-ekart-react\node_modules\react-dom\cjs\react-dom-test-utils.development.js:1092:14)
+    at wrapAct (C:\Users\aravind.ganesan01\Desktop\new-ekart-react\node_modules\enzyme-adapter-react-16\src\ReactSixteenAdapter.js:347:13)
+    at Object.render (C:\Users\aravind.ganesan01\Desktop\new-ekart-react\node_modules\enzyme-adapter-react-16\src\ReactSixteenAdapter.js:416:16)
+    at new ReactWrapper (C:\Users\aravind.ganesan01\Desktop\new-ekart-react\node_modules\enzyme\src\ReactWrapper.js:115:16)
+    at mount (C:\Users\aravind.ganesan01\Desktop\new-ekart-react\node_modules\enzyme\src\mount.js:10:10)
+    at Object.&lt;anonymous&gt; (C:\Users\aravind.ganesan01\Desktop\new-ekart-react\src\App.test.js:534:21)
+    at Object.asyncJestTest (C:\Users\aravind.ganesan01\Desktop\new-ekart-react\node_modules\jest-jasmine2\build\jasmineAsyncInstall.js:102:37)
+    at C:\Users\aravind.ganesan01\Desktop\new-ekart-react\node_modules\jest-jasmine2\build\queueRunner.js:43:12
+    at new Promise (&lt;anonymous&gt;)
+    at mapper (C:\Users\aravind.ganesan01\Desktop\new-ekart-react\node_modules\jest-jasmine2\build\queueRunner.js:26:19)
+    at C:\Users\aravind.ganesan01\Desktop\new-ekart-react\node_modules\jest-jasmine2\build\queueRunner.js:73:41</failure>
+    </testcase>
+    <testcase classname="Testing SearchPage component Testing whether the products are rendered according to the search term" name="Testing SearchPage component Testing whether the products are rendered according to the search term" time="0.036">
+      <failure>TypeError: Cannot read property &apos;getProductNames&apos; of undefined
+    at SearchPage.componentWillMount (C:\Users\aravind.ganesan01\Desktop\new-ekart-react\src\components\SearchPage.jsx:14:24)
+    at callComponentWillMount (C:\Users\aravind.ganesan01\Desktop\new-ekart-react\node_modules\react-dom\cjs\react-dom.development.js:14271:14)
+    at mountClassInstance (C:\Users\aravind.ganesan01\Desktop\new-ekart-react\node_modules\react-dom\cjs\react-dom.development.js:14374:5)
+    at updateClassComponent (C:\Users\aravind.ganesan01\Desktop\new-ekart-react\node_modules\react-dom\cjs\react-dom.development.js:18414:5)
+    at beginWork$1 (C:\Users\aravind.ganesan01\Desktop\new-ekart-react\node_modules\react-dom\cjs\react-dom.development.js:20186:16)
+    at HTMLUnknownElement.callCallback (C:\Users\aravind.ganesan01\Desktop\new-ekart-react\node_modules\react-dom\cjs\react-dom.development.js:336:14)
+    at invokeEventListeners (C:\Users\aravind.ganesan01\Desktop\new-ekart-react\node_modules\jest-environment-jsdom\node_modules\jsdom\lib\jsdom\living\events\EventTarget-impl.js:193:27)
+    at HTMLUnknownElementImpl._dispatch (C:\Users\aravind.ganesan01\Desktop\new-ekart-react\node_modules\jest-environment-jsdom\node_modules\jsdom\lib\jsdom\living\events\EventTarget-impl.js:119:9)
+    at HTMLUnknownElementImpl.dispatchEvent (C:\Users\aravind.ganesan01\Desktop\new-ekart-react\node_modules\jest-environment-jsdom\node_modules\jsdom\lib\jsdom\living\events\EventTarget-impl.js:82:17)
+    at HTMLUnknownElementImpl.dispatchEvent (C:\Users\aravind.ganesan01\Desktop\new-ekart-react\node_modules\jest-environment-jsdom\node_modules\jsdom\lib\jsdom\living\nodes\HTMLElement-impl.js:30:27)
+    at HTMLUnknownElement.dispatchEvent (C:\Users\aravind.ganesan01\Desktop\new-ekart-react\node_modules\jest-environment-jsdom\node_modules\jsdom\lib\jsdom\living\generated\EventTarget.js:157:21)
+    at Object.invokeGuardedCallbackDev (C:\Users\aravind.ganesan01\Desktop\new-ekart-react\node_modules\react-dom\cjs\react-dom.development.js:385:16)
+    at invokeGuardedCallback (C:\Users\aravind.ganesan01\Desktop\new-ekart-react\node_modules\react-dom\cjs\react-dom.development.js:440:31)
+    at beginWork$$1 (C:\Users\aravind.ganesan01\Desktop\new-ekart-react\node_modules\react-dom\cjs\react-dom.development.js:25780:7)
+    at performUnitOfWork (C:\Users\aravind.ganesan01\Desktop\new-ekart-react\node_modules\react-dom\cjs\react-dom.development.js:24698:12)
+    at workLoopSync (C:\Users\aravind.ganesan01\Desktop\new-ekart-react\node_modules\react-dom\cjs\react-dom.development.js:24671:22)
+    at performSyncWorkOnRoot (C:\Users\aravind.ganesan01\Desktop\new-ekart-react\node_modules\react-dom\cjs\react-dom.development.js:24270:11)
+    at scheduleUpdateOnFiber (C:\Users\aravind.ganesan01\Desktop\new-ekart-react\node_modules\react-dom\cjs\react-dom.development.js:23698:7)
+    at updateContainer (C:\Users\aravind.ganesan01\Desktop\new-ekart-react\node_modules\react-dom\cjs\react-dom.development.js:27103:3)
+    at C:\Users\aravind.ganesan01\Desktop\new-ekart-react\node_modules\react-dom\cjs\react-dom.development.js:27528:7
+    at unbatchedUpdates (C:\Users\aravind.ganesan01\Desktop\new-ekart-react\node_modules\react-dom\cjs\react-dom.development.js:24433:12)
+    at legacyRenderSubtreeIntoContainer (C:\Users\aravind.ganesan01\Desktop\new-ekart-react\node_modules\react-dom\cjs\react-dom.development.js:27527:5)
+    at Object.render (C:\Users\aravind.ganesan01\Desktop\new-ekart-react\node_modules\react-dom\cjs\react-dom.development.js:27608:10)
+    at fn (C:\Users\aravind.ganesan01\Desktop\new-ekart-react\node_modules\enzyme-adapter-react-16\src\ReactSixteenAdapter.js:430:26)
+    at C:\Users\aravind.ganesan01\Desktop\new-ekart-react\node_modules\enzyme-adapter-react-16\src\ReactSixteenAdapter.js:347:37
+    at batchedUpdates$1 (C:\Users\aravind.ganesan01\Desktop\new-ekart-react\node_modules\react-dom\cjs\react-dom.development.js:24386:12)
+    at Object.act (C:\Users\aravind.ganesan01\Desktop\new-ekart-react\node_modules\react-dom\cjs\react-dom-test-utils.development.js:1092:14)
+    at wrapAct (C:\Users\aravind.ganesan01\Desktop\new-ekart-react\node_modules\enzyme-adapter-react-16\src\ReactSixteenAdapter.js:347:13)
+    at Object.render (C:\Users\aravind.ganesan01\Desktop\new-ekart-react\node_modules\enzyme-adapter-react-16\src\ReactSixteenAdapter.js:416:16)
+    at new ReactWrapper (C:\Users\aravind.ganesan01\Desktop\new-ekart-react\node_modules\enzyme\src\ReactWrapper.js:115:16)
+    at mount (C:\Users\aravind.ganesan01\Desktop\new-ekart-react\node_modules\enzyme\src\mount.js:10:10)
+    at Object.&lt;anonymous&gt; (C:\Users\aravind.ganesan01\Desktop\new-ekart-react\src\App.test.js:541:21)
+    at Object.asyncJestTest (C:\Users\aravind.ganesan01\Desktop\new-ekart-react\node_modules\jest-jasmine2\build\jasmineAsyncInstall.js:102:37)
+    at C:\Users\aravind.ganesan01\Desktop\new-ekart-react\node_modules\jest-jasmine2\build\queueRunner.js:43:12
+    at new Promise (&lt;anonymous&gt;)
+    at mapper (C:\Users\aravind.ganesan01\Desktop\new-ekart-react\node_modules\jest-jasmine2\build\queueRunner.js:26:19)
+    at C:\Users\aravind.ganesan01\Desktop\new-ekart-react\node_modules\jest-jasmine2\build\queueRunner.js:73:41</failure>
+    </testcase>
+    <testcase classname="Testing SearchBoxComponent component Testing routing1 in SearchBoxComponent component" name="Testing SearchBoxComponent component Testing routing1 in SearchBoxComponent component" time="0.002">
+      <failure>Error: expect(received).toEqual(expected) // deep equality
+
+Expected: [&quot;/searching&quot;]
+Received: undefined
+    at Object.&lt;anonymous&gt; (C:\Users\aravind.ganesan01\Desktop\new-ekart-react\src\App.test.js:551:44)
+    at Object.asyncJestTest (C:\Users\aravind.ganesan01\Desktop\new-ekart-react\node_modules\jest-jasmine2\build\jasmineAsyncInstall.js:102:37)
+    at C:\Users\aravind.ganesan01\Desktop\new-ekart-react\node_modules\jest-jasmine2\build\queueRunner.js:43:12
+    at new Promise (&lt;anonymous&gt;)
+    at mapper (C:\Users\aravind.ganesan01\Desktop\new-ekart-react\node_modules\jest-jasmine2\build\queueRunner.js:26:19)
+    at C:\Users\aravind.ganesan01\Desktop\new-ekart-react\node_modules\jest-jasmine2\build\queueRunner.js:73:41</failure>
+    </testcase>
+    <testcase classname="Testing SearchBoxComponent component Testing routing2 in SearchBoxComponent component" name="Testing SearchBoxComponent component Testing routing2 in SearchBoxComponent component" time="0.003">
+      <failure>Error: expect(received).toEqual(expected) // deep equality
+
+Expected: [&quot;/searchPage/&quot;]
+Received: undefined
+    at Object.&lt;anonymous&gt; (C:\Users\aravind.ganesan01\Desktop\new-ekart-react\src\App.test.js:557:44)
+    at Object.asyncJestTest (C:\Users\aravind.ganesan01\Desktop\new-ekart-react\node_modules\jest-jasmine2\build\jasmineAsyncInstall.js:102:37)
+    at C:\Users\aravind.ganesan01\Desktop\new-ekart-react\node_modules\jest-jasmine2\build\queueRunner.js:43:12
+    at new Promise (&lt;anonymous&gt;)
+    at mapper (C:\Users\aravind.ganesan01\Desktop\new-ekart-react\node_modules\jest-jasmine2\build\queueRunner.js:26:19)
+    at C:\Users\aravind.ganesan01\Desktop\new-ekart-react\node_modules\jest-jasmine2\build\queueRunner.js:73:41</failure>
+    </testcase>
+    <testcase classname="Testing ReturnedOrders component Testing returned orders are rendered" name="Testing ReturnedOrders component Testing returned orders are rendered" time="0.006">
+    </testcase>
+    <testcase classname="Testing OpenOrders component Testing orders are rendered" name="Testing OpenOrders component Testing orders are rendered" time="0.003">
+    </testcase>
+    <testcase classname="Testing Notification component Testing Notify component notifications" name="Testing Notification component Testing Notify component notifications" time="0.02">
+    </testcase>
+    <testcase classname="Testing Cart component Testing whether the cart items are rendered" name="Testing Cart component Testing whether the cart items are rendered" time="0.013">
+    </testcase>
+    <testcase classname="Testing Cart component Testing whether the cart items are rendered" name="Testing Cart component Testing whether the cart items are rendered" time="0.004">
+      <failure>Error: expect(received).toEqual(expected) // deep equality
+
+Expected: [&quot;/login&quot;]
+Received: undefined
+    at Object.&lt;anonymous&gt; (C:\Users\aravind.ganesan01\Desktop\new-ekart-react\src\App.test.js:609:44)
+    at Object.asyncJestTest (C:\Users\aravind.ganesan01\Desktop\new-ekart-react\node_modules\jest-jasmine2\build\jasmineAsyncInstall.js:102:37)
+    at C:\Users\aravind.ganesan01\Desktop\new-ekart-react\node_modules\jest-jasmine2\build\queueRunner.js:43:12
+    at new Promise (&lt;anonymous&gt;)
+    at mapper (C:\Users\aravind.ganesan01\Desktop\new-ekart-react\node_modules\jest-jasmine2\build\queueRunner.js:26:19)
+    at C:\Users\aravind.ganesan01\Desktop\new-ekart-react\node_modules\jest-jasmine2\build\queueRunner.js:73:41</failure>
+    </testcase>
+    <testcase classname="Testing Card Component Testing whether the card component is rendering form" name="Testing Card Component Testing whether the card component is rendering form" time="0.141">
+    </testcase>
+    <testcase classname="Testing Card Component Testing whether the card component is rendering table" name="Testing Card Component Testing whether the card component is rendering table" time="0.016">
+    </testcase>
+    <testcase classname="Testing CardHolder component Testing whether the card details are rendered" name="Testing CardHolder component Testing whether the card details are rendered" time="0.022">
+    </testcase>
+    <testcase classname="Testing CardHolder component Testing whether the button is rendered when add state is false" name="Testing CardHolder component Testing whether the button is rendered when add state is false" time="0.014">
+    </testcase>
+    <testcase classname="Testing Address component Testing whether address rows are rendered" name="Testing Address component Testing whether address rows are rendered" time="0.048">
+    </testcase>
+    <testcase classname="Testing Address component Testing whether add address component is rendered" name="Testing Address component Testing whether add address component is rendered" time="0.034">
+    </testcase>
+    <testcase classname="Testing AddressRow component To check whether table is rendered" name="Testing AddressRow component To check whether table is rendered" time="0.029">
+    </testcase>
+    <testcase classname="Testing AddressRow component To check whether the form is rendered" name="Testing AddressRow component To check whether the form is rendered" time="0.048">
+    </testcase>
+    <testcase classname="Testing AddressRow component To check whether the state is updated" name="Testing AddressRow component To check whether the state is updated" time="0.042">
+    </testcase>
+    <testcase classname="Testing AddAddress component Testing whether the states are rendered" name="Testing AddAddress component Testing whether the states are rendered" time="0.006">
+      <failure>Error: expect(received).toHaveLength(expected)
+
+Expected length: 2
+Received length: 0
+Received object: {}
+    at Object.&lt;anonymous&gt; (C:\Users\aravind.ganesan01\Desktop\new-ekart-react\src\App.test.js:819:20)
+    at Object.asyncJestTest (C:\Users\aravind.ganesan01\Desktop\new-ekart-react\node_modules\jest-jasmine2\build\jasmineAsyncInstall.js:102:37)
+    at C:\Users\aravind.ganesan01\Desktop\new-ekart-react\node_modules\jest-jasmine2\build\queueRunner.js:43:12
+    at new Promise (&lt;anonymous&gt;)
+    at mapper (C:\Users\aravind.ganesan01\Desktop\new-ekart-react\node_modules\jest-jasmine2\build\queueRunner.js:26:19)
+    at C:\Users\aravind.ganesan01\Desktop\new-ekart-react\node_modules\jest-jasmine2\build\queueRunner.js:73:41</failure>
+    </testcase>
+  </testsuite>
+</testsuites>

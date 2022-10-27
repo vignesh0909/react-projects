@@ -1,0 +1,39 @@
+{
+  "defects": [
+    {
+      "id": 1,
+      "category": "UI",
+      "description": "Submit button coming to the extreme left. Refer the screen shorts",
+      "priority": "2",
+      "status": "open"
+    },
+    {
+      "id": 2,
+      "category": "Functional",
+      "description": "While Submitting the form data, a confirmation popup should appear. Refer the SRS documents",
+      "priority": "1",
+      "status": "closed"
+    },
+    {
+      "id": 3,
+      "category": "UI",
+      "description": "dummy",
+      "priority": "1",
+      "status": "closed"
+    },
+    {
+      "category": "Change Request",
+      "description": "dummy desc",
+      "priority": "1",
+      "status": "open",
+      "id": 4
+    },
+    {
+      "category": "Functional",
+      "description": "dummy dec",
+      "priority": "3",
+      "status": "open",
+      "id": 5
+    }
+  ]
+}
